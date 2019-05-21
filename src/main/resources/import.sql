@@ -1,3 +1,10 @@
+insert into usuarios (username, password, enabled, nombre, apellido, email) values ('roman', '$2a$10$GCvyBsDsxtq7CIgc.GDDKOop4ePeGZm2Azp/X1vP.JZLHflXp2KDq', 1, 'Roman','Badillo G', 'roman@mail.com');
+
+insert into roles (nombre) values ('ROLE_ADMIN');
+insert into roles (nombre) values ('ROLE_USER');
+
+insert into usuarios_roles (usuario_id, role_id) values (1,2);
+
 insert into regiones (id, nombre) values (1, 'Sudamerica');
 insert into regiones (id, nombre) values (2, 'CentroAmerica');
 insert into regiones (id, nombre) values (3, 'Europa');
